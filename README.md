@@ -62,3 +62,44 @@ The API endpoints are documented in the code and follow RESTful conventions. Her
 -   ... and many more for managing projects, milestones, documents, and users.
 
 Refer to the controller classes for detailed information on each endpoint and the required roles.
+
+---
+
+# Frontend Application
+
+This is the React frontend application for the Research Project Tracker, designed to interact with the Spring Boot backend.
+
+## Technology Stack
+
+- **Frontend Framework**: React (with TypeScript)
+- **Routing**: React Router DOM
+- **API Client**: Axios
+- **State Management**: React Context API
+- **Styling**: Tailwind CSS
+
+## Getting Started (Frontend)
+
+### Prerequisites
+
+- Node.js (LTS version recommended)
+- npm (Node Package Manager)
+
+### Running the Application
+
+1.  **Navigate to the frontend directory**:
+    ```bash
+    cd research-tracker
+    ```
+
+2.  **Install dependencies**:
+    ```bash
+    npm install
+    ```
+
+3.  **Start the development server**:
+    ```bash
+    npm run dev
+    ```
+    The frontend application will typically start on `http://localhost:5173` (or another port if 5173 is in use).
+
+Ensure the backend application is running (`http://localhost:8080`) before starting the frontend.

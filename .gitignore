@@ -41,3 +41,8 @@ buildNumber.properties
 .classpath
 .project
 .settings
+
+# Frontend (React/Vite)
+/research-tracker/node_modules
+/research-tracker/dist
+/research-tracker/.vite
